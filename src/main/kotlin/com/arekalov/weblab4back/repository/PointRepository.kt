@@ -1,6 +1,5 @@
 package com.arekalov.weblab4back.repository
 
-import com.arekalov.weblab4back.dto.UserDto
 import com.arekalov.weblab4back.model.Point
 import org.springframework.data.jpa.repository.JpaRepository
 
