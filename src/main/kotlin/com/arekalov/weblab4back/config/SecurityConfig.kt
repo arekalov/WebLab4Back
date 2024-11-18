@@ -1,4 +1,4 @@
-package com.arekalov.weblab4back
+package com.arekalov.weblab4back.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
@@ -17,6 +17,7 @@ class SecurityConfig {
             .anyRequest().permitAll() // Все остальные запросы требуют аутентификацию
             .and()
             .csrf().disable() // Отключаем CSRF для REST API
+            .cors().disable()
         return http.build()
     }
 }

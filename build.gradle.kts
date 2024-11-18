@@ -31,6 +31,8 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     implementation("org.springframework.boot:spring-boot-starter-security")
+//    Swagger enable in http://localhost:8080/swagger-ui.html
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
 
 }
 
